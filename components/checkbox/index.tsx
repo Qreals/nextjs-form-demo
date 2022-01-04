@@ -26,7 +26,7 @@ function Checkbox(props: ICheckboxProps): JSX.Element {
 
 	return (
 		<>
-			<div className={`gc-checkbox inline-block ${className}`}>
+			<div className={` inline-block ${className}`}>
 				<ACheckbox
 					disabled={disabled}
 					defaultChecked={defaultChecked}

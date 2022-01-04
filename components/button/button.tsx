@@ -23,7 +23,7 @@ function Button(props: GCButtonProps): JSX.Element {
 		type = 'default',
 		children,
 		width,
-		height = 46,
+		height = 40,
 		ghost = false,
 		disabled = false,
 		htmlType = 'submit',
