@@ -9,8 +9,7 @@ interface dataType {
 const FirstPost = () => {
     const [data, setData] = useState<dataType>();
     useEffect(() => {
-        const loginData = getLoginData();
-        loginData.then((res => {
+        getLoginData().then((res => {
             setData(res)
         }));
     })
